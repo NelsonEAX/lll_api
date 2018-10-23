@@ -12,9 +12,23 @@ public/hot
 storage/*.key
 .env.*.php
 .env.php
+.env.example
 .env
 Homestead.yaml
 Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+yarn-error.log
+.phpunit.result.cache
+composer.lock
