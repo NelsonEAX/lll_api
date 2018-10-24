@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+Route::get('data/{shop}', 'DataController@data')->where('shop', '[A-Za-z]+');;
 Route::get('mail/send', 'MailController@send');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

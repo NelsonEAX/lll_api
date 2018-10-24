@@ -29,7 +29,7 @@ class JolllyEmail extends Mailable
      */
     public function build()
     {
-        return $this->from('sender@example.com')
+        return $this->from('noreply@jollly.ru')
             ->view('mails.order')
             ->text('mails.plain_order')
             ->with(
